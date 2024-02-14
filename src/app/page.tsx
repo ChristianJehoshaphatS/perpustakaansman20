@@ -9,6 +9,8 @@ import "react-nice-scroll/dist/styles.css";
 import bedahbukuthumb from "../../public/events/bedahbukuthumb.png";
 
 export default function Home() {
+	console.log(process.env.NEXT_PUBLIC_SERVER_URL);
+
 	return (
 		<>
 			<div className="w-full">
