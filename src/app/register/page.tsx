@@ -3,8 +3,6 @@ import Link from "next/link";
 import {redirect} from "next/navigation";
 
 const RegisterPage = () => {
-	const NEXT_PUBLIC_SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
-
 	const handleSubmit = async (data: FormData) => {
 		"use server";
 		// try {

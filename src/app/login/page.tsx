@@ -35,7 +35,7 @@ const LoginPage = () => {
 			const errFinalMessage = `${errPath} - ${errMessage}`;
 
 			return redirect(
-				`${NEXT_PUBLIC_SERVER_URL}/login?error=${errFinalMessage}`
+				`https://perpustakaan-sman20.vercel.app/login?error=${errFinalMessage}`
 			);
 		}
 
@@ -43,7 +43,7 @@ const LoginPage = () => {
 
 		if (!foundUser) {
 			return redirect(
-				`${NEXT_PUBLIC_SERVER_URL}/login?error=invalid%20email/password`
+				`https://perpustakaan-sman20.vercel.app/login?error=invalid%20email/password`
 			);
 		}
 
@@ -54,7 +54,7 @@ const LoginPage = () => {
 
 		if (!compare) {
 			return redirect(
-				`${NEXT_PUBLIC_SERVER_URL}/login?error=invalid%20email/password`
+				`https://perpustakaan-sman20.vercel.app/login?error=invalid%20email/password`
 			);
 		}
 
@@ -76,7 +76,7 @@ const LoginPage = () => {
 
 		loading = false;
 		console.log(NEXT_PUBLIC_SERVER_URL, "<<<<<<<<<<<<<>>>>><<<<<");
-		// return redirect("/main");
+		return redirect("/main");
 	};
 	return (
 		<>
