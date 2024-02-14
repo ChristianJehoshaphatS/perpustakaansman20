@@ -75,7 +75,8 @@ const LoginPage = () => {
 		});
 
 		loading = false;
-		return redirect("/main");
+		console.log(NEXT_PUBLIC_SERVER_URL, "<<<<<<<<<<<<<>>>>><<<<<");
+		// return redirect("/main");
 	};
 	return (
 		<>
