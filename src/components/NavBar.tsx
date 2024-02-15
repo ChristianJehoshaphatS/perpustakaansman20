@@ -57,14 +57,9 @@ const NavBar = () => {
 								<li>
 									<a>E-Catalog</a>
 								</li>
+
 								<li>
-									<a>Form Pengujung</a>
-								</li>
-								<li>
-									<a>Form Peminjaman Buku</a>
-								</li>
-								<li>
-									<a>Jam Layanan</a>
+									<a>E-Resource</a>
 								</li>
 								<li>
 									<a>E-Book</a>
@@ -156,14 +151,9 @@ const NavBar = () => {
 								<li>
 									<a>E-Catalog</a>
 								</li>
+
 								<li>
-									<a>Form Pengunjung</a>
-								</li>
-								<li>
-									<a>Form Peminjaman Buku</a>
-								</li>
-								<li>
-									<a>Jam Layanan</a>
+									<a>E-Resource</a>
 								</li>
 								<li>
 									<a>E-Book</a>

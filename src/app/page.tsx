@@ -81,21 +81,31 @@ export default function Home() {
 							Jaya Jaya Jaya
 							<br />
 							<br />
-							Wassalamualaikum warahmatullahi wabarakatuh,
-							<br />
-							Shalom,
-							<br />
-							Om santi santi om,
-							<br />
-							Namo buddhaya,
-							<br />
-							Rahayu.
-							<br />
-							Salam kebajikan
+							Wassalamualaikum warahmatullahi wabarakatuh.
 						</p>
 					</ScrollContainer>
 				</div>
 				{/* Event dan Berita */}
+				<div className="w-full px-1 h-1 bg-[#ffd31a]"></div>
+
+				<h1 className="text-3xl font-bold self-start ml-10 mt-10 text-black">
+					Jam Layanan
+				</h1>
+				<br />
+				<div className="w-full px-1 h-1 bg-[#ffd31a]"></div>
+
+				<h1 className="text-3xl font-bold self-start ml-10 mt-10 text-black">
+					Rekomendasi Bacaan
+				</h1>
+				<div className="flex self-start p-10">
+					{/* Card */}
+					<EventCard
+						link="google.com"
+						title="Bedah Buku"
+						image={bedahbukuthumb.src}
+					/>
+				</div>
+
 				<div className="w-full px-1 h-1 bg-[#ffd31a]"></div>
 
 				<h1 className="text-3xl font-bold self-start ml-10 mt-10 text-black">
