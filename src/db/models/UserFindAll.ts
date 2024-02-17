@@ -11,7 +11,7 @@ export type UserModel = {
 };
 
 const DATABASE_NAME = process.env.MONGODB_DB_NAME;
-const COLLECTION_USER = "users";
+const COLLECTION_USER = "User";
 
 export const getDB = async () => {
   const client = await getMongoClientInstance();
