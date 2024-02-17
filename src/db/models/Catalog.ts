@@ -22,10 +22,10 @@ export const getDB = async () => {
 // Find Users with Search, Filter, and Pagination
 export const getCatalog = async (
   pageNumber: number,
-  title?: string,
-  author?: string,
+  title?: unknown,
+  author?: unknown,
   year?: number,
-  publisher?: string,
+  publisher?: unknown,
   pageSize: number = 20
 ) => {
   console.log(
@@ -47,7 +47,7 @@ export const getCatalog = async (
 
   // Constructing the query object based on user input
   let pattern = "/^/" + title + "/";
-  let query = {};
+  let query = { title, author, publisher, year };
   if (title) query.title = { $regex: title, $options: "i" }; // Similar title with wildcard on both ends
   if (author) query.author = { $regex: author, $options: "i" }; // Similar author with wildcard on both ends
   if (publisher) query.publisher = { $regex: publisher, $options: "i" }; // Similar publisher with wildcard on both ends
