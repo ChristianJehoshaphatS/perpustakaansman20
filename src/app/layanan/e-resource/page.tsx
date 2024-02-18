@@ -53,7 +53,12 @@ export default function EResource() {
           Links
         </h1>
         {links.map((link, i) => (
-          <ExternalLink title={link.title} link={link.link} idx={i} />
+          <ExternalLink
+            key={`links${link.title}`}
+            title={link.title}
+            link={link.link}
+            idx={i}
+          />
         ))}
       </div>
     </main>
