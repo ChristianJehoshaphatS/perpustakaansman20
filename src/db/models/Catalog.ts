@@ -1,13 +1,18 @@
 import { Db, ObjectId } from "mongodb";
 import { getMongoClientInstance } from "../config";
 
-export type UserModel = {
+export type BookModel = {
   _id: ObjectId;
-  name: string;
-  username: string;
-  email: string;
-  password: string;
-  role?: string;
+  catalog_id: number;
+  title: string;
+  author: string;
+  city: string;
+  publisher: string;
+  year: number;
+  fisik: string;
+  no_panggil: string;
+  eksemplar: number;
+  image: string;
 };
 
 const DATABASE_NAME = process.env.MONGODB_DB_NAME;
@@ -87,3 +92,13 @@ export const getCatalog = async (
 //     .toArray()) as UserModel[];
 //   return users;
 // };
+
+export const getDetail = async (catalog_id: string) => {
+  const db = await getDB();
+  const singleBook = await db
+    .collection(COLLECTION_USER)
+    .findOne({ catalog_id: +catalog_id });
+  console.log(singleBook);
+
+  return singleBook;
+};

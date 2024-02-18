@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cookies } from "next/headers";
+import LogoutButton from "./LogOut";
 
 const NavBar = () => {
   const cookieStore = cookies();
@@ -59,7 +60,7 @@ const NavBar = () => {
                 </li>
 
                 <li>
-                  <a>E-Resource</a>
+                  <Link href={"/layanan/e-resource"}>E-Resource</Link>
                 </li>
                 <li>
                   <a>E-Book</a>
@@ -87,7 +88,10 @@ const NavBar = () => {
               <a>Aktivitas</a>
               <ul className="p-2">
                 <li>
-                  <a>Gerakan Literasi Zwanzig</a>
+                  <Link href={"/aktivitas/geliz"}>
+                    Gerakan Literasi Zwanzig
+                  </Link>
+                  <a></a>
                 </li>
                 <li>
                   <a>Karya Murid</a>
@@ -153,7 +157,7 @@ const NavBar = () => {
                 </li>
 
                 <li>
-                  <a>E-Resource</a>
+                  <Link href={"/layanan/e-resource"}>E-Resource</Link>
                 </li>
                 <li>
                   <a>E-Book</a>
@@ -185,7 +189,9 @@ const NavBar = () => {
               <summary>Aktivitas</summary>
               <ul className="p-2 lg:min-w-max bg-white">
                 <li>
-                  <a>Gerakan Literasi Zwanzig</a>
+                  <Link href={"/aktivitas/geliz"}>
+                    Gerakan Literasi Zwanzig
+                  </Link>
                 </li>
                 <li>
                   <a>Karya Murid</a>
@@ -200,12 +206,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end ">
         {token ? (
-          <Link
-            href="/login"
-            className="btn bg-white border-0 text-black hover:bg-[#fef7c0]"
-          >
-            Logout
-          </Link>
+          <LogoutButton />
         ) : (
           <Link
             href="/login"
