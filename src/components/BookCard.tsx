@@ -27,7 +27,7 @@ const BookCard = (props: bookProps) => {
 
   return (
     <>
-      <div className="card w-[18rem] bg-white shadow-xl shadow-slate-300 rounded-2xl">
+      <div className="card min-w-[18rem] w-[18rem] bg-white shadow-xl shadow-slate-300 rounded-2xl">
         <figure className="">
           <img
             crossOrigin="anonymous"

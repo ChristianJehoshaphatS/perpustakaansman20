@@ -119,7 +119,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold self-start ml-10 mt-10 text-black">
           Rekomendasi Bacaan
         </h1>
-        <div className="flex self-start p-10 gap-3">
+        <div className="flex p-10 gap-3 w-full overflow-x-auto">
           {/* Card */}
           {recommend &&
             recommend?.map((data, i) => (
