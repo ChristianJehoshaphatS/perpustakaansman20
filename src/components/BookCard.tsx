@@ -18,7 +18,7 @@ const BookCard = (props: bookProps) => {
   const id = props?.image?.split("/");
 
   const limitStr = (str: string) => {
-    if (str.length > 80) {
+    if (str?.length > 80) {
       return `${str.substring(0, 40)}...`;
     } else {
       return str;

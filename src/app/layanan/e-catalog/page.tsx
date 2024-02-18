@@ -42,6 +42,7 @@ export default function ECatalog() {
       {
         method: "POST",
         body: formData,
+        cache: "no-cache",
       }
     );
     const responseJson = await response.json();

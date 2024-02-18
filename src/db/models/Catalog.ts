@@ -46,8 +46,7 @@ export const getCatalog = async (
   const db = await getDB();
 
   // Constructing the query object based on user input
-  let pattern = "/^/" + title + "/";
-  let query = { title, author, publisher, year };
+  let query = {} as any;
   if (title) query.title = { $regex: title, $options: "i" }; // Similar title with wildcard on both ends
   if (author) query.author = { $regex: author, $options: "i" }; // Similar author with wildcard on both ends
   if (publisher) query.publisher = { $regex: publisher, $options: "i" }; // Similar publisher with wildcard on both ends
