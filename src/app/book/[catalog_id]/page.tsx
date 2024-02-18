@@ -73,7 +73,7 @@ const BookDetail = async ({ params }: { params: { catalog_id: string } }) => {
           </div>
         </section>
       </div>
-      <div className="self self-end pr-[10rem]">
+      <div className="self self-end pr-[12.5rem]">
         <Link href={"/layanan/e-catalog"}>
           <button className="btn btn-warning text-[#1e2728] text-lg">
             Kembali

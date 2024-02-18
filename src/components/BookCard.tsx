@@ -46,7 +46,7 @@ const BookCard = (props: bookProps) => {
             }
           />
         </figure>
-        <div className="card-body items-center text-center flex flex-col justify-between">
+        <div className="card-body items-center text-center flex flex-col justify-between h-[15rem]">
           <h3 className="card-title text-black text-lg">
             {limitStr(props.title)}
           </h3>

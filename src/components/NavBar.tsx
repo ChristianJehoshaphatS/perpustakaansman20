@@ -205,6 +205,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end ">
+        <img src="/logo.svg" alt="" className="h-14 mx-5" />
         {token ? (
           <LogoutButton />
         ) : (

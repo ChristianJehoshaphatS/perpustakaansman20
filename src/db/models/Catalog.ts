@@ -102,3 +102,13 @@ export const getDetail = async (catalog_id: string) => {
 
   return singleBook;
 };
+
+export const getRecommended = async () => {
+  const db = await getDB();
+  const recommendedBooks = (await db
+    .collection(COLLECTION_USER)
+    .find({ image: { $ne: "" } })
+    .toArray()) as BookModel[];
+
+  return recommendedBooks;
+};
