@@ -9,7 +9,7 @@ type props = {
 const EventCard = (props: props) => {
 	return (
 		<>
-			<div className="card w-80 bg-white shadow-xl shadow-yellow-300 rounded-2xl">
+			<div className="card w-3/4 lg:w-1/5 bg-white shadow-xl shadow-yellow-300 rounded-2xl">
 				<figure className="">
 					<img src={props.image} alt="Shoes" className="rounded-t-2xl" />
 				</figure>
