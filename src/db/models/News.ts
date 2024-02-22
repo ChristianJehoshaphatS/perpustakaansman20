@@ -31,3 +31,13 @@ export const getNewsEvents = async () => {
 
   return documents;
 };
+
+export const getNewsDetail = async (news_id: string) => {
+  const db = await getDB();
+  const singleNews = await db
+    .collection(COLLECTION_USER)
+    .findOne({ news_id: +news_id });
+  console.log(singleNews);
+
+  return singleNews;
+};
