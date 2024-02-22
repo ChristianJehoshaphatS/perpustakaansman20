@@ -25,6 +25,7 @@ export default async function KaryaSiswa() {
                 <div
                   className="flex flex-col justify-center items-center gap-5 border-t-2 pt-5"
                   style={{ height: karyaSiswa.length * 100 }}
+                  key={karya._id.toString()}
                 >
                   <LoadPdf
                     key={karya._id.toString()}

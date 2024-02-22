@@ -20,6 +20,7 @@ export default async function KaryaGuru() {
                 <div
                   className="flex flex-col justify-center items-center gap-5 border-t-2 pt-5"
                   style={{ height: karyaGuru.length * 200 }}
+                  key={karya._id.toString()}
                 >
                   <LoadPdf
                     key={karya._id.toString()}
