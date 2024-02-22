@@ -94,10 +94,10 @@ const NavBar = () => {
                   <a></a>
                 </li>
                 <li>
-                  <a>Karya Murid</a>
+                  <Link href={"/aktivitas/karyamurid"}>Karya Murid</Link>
                 </li>
                 <li>
-                  <a>Karya Guru</a>
+                  <Link href={"/aktivitas/karyaguru"}>Karya Guru</Link>
                 </li>
               </ul>
             </li>
@@ -194,10 +194,10 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a>Karya Murid</a>
+                  <Link href={"/aktivitas/karyamurid"}>Karya Murid</Link>
                 </li>
                 <li>
-                  <a>Karya Guru</a>
+                  <Link href={"/aktivitas/karyaguru"}>Karya Guru</Link>
                 </li>
               </ul>
             </details>
