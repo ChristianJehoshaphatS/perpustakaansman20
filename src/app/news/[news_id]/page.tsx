@@ -16,7 +16,7 @@ const BookDetail = async ({ params }: { params: { news_id: string } }) => {
         <LoadPdf link={data?.pdfUrl} width={"100%"} height={"80%"} />
       </div>
       <div className="self self-end pr-[12.5rem]">
-        <Link href={"/layanan/e-catalog"}>
+        <Link href={"/"}>
           <button className="btn btn-warning text-[#1e2728] text-lg">
             Kembali
           </button>

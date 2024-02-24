@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { promises as fs } from "fs";
 import { DriveFileModel, getKaryaGuru } from "@/db/models/KaryaGuruSiswa";
 import LoadPdf from "@/components/LoadDrivePdf";
 
