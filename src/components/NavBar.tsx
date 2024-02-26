@@ -77,7 +77,9 @@ const NavBar = () => {
                   <a>Jumlah Anggota</a>
                 </li>
                 <li>
-                  <a>Jumlah Pengunjung</a>
+                  <Link href={"/statistik/jumlah-pengunjung"}>
+                    Jumlah Pengunjung
+                  </Link>
                 </li>
                 <li>
                   <a>Jumlah Bahan Pustaka</a>
@@ -176,7 +178,9 @@ const NavBar = () => {
                   <a>Jumlah Anggota</a>
                 </li>
                 <li>
-                  <a>Jumlah Pengunjung</a>
+                  <Link href={"/statistik/jumlah-pengunjung"}>
+                    Jumlah Pengunjung
+                  </Link>
                 </li>
                 <li>
                   <a>Jumlah Bahan Pustaka</a>
