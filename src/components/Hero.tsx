@@ -39,7 +39,7 @@ const HeroBanner = () => {
 						/> */}
             <div className="prose text-black">
               <h1 className="text-3xl font-bold text-black">
-                Selamat Datang di Perpustakaan SMAN 20 Jakarta!
+                Selamat Datang di Perpustakaan Vidyalaya SMA Negeri 20 Jakarta!
               </h1>
               <p className="py-6">
                 Ayo Membaca dan Gunakan Perpustakaan! <br />

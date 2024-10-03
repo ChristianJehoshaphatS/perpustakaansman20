@@ -120,7 +120,7 @@ const NavBar = () => {
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl hidden sm:inline-flex">
-          Perpustakaan SMAN 20 Jakarta
+          3171021E1014698 - Vidyalaya Library
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

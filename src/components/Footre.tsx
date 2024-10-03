@@ -23,7 +23,7 @@ const FooterMenu = () => {
           <div className="flex items-center gap-5 border-s-orange-800 pl-4 border-s-4">
             <a
               target="_blank"
-              href="https://www.tiktok.com/@zwanziglib?_t=8jeW85DNp7C&_r=1"
+              href="https://www.tiktok.com/@vidyalaya20?lang=en"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const FooterMenu = () => {
                 ></path>
               </svg>
             </a>
-            <h1 className="text-lg font-semibold">zwanziglib</h1>
+            <h1 className="text-lg font-semibold">vidyalaya20</h1>
           </div>
 
           <div className="flex items-center gap-5 border-s-orange-800 pl-4 border-s-4">
@@ -130,10 +130,7 @@ const FooterMenu = () => {
           </div>
 
           <div className="flex items-center gap-5 border-s-orange-800 pl-4 border-s-4">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/zwanzig_lib?hl=en"
-            >
+            <a target="_blank" href="https://www.instagram.com/vidyalaya_lib/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -192,7 +189,7 @@ const FooterMenu = () => {
                 ></path>
               </svg>
             </a>
-            <h1 className="text-lg font-semibold">zwanzig_lib</h1>
+            <h1 className="text-lg font-semibold">vidyalaya_lib</h1>
           </div>
           <div className="flex items-center gap-5 border-s-orange-800 pl-4 border-s-4">
             <a target="_blank" href="https://www.instagram.com/expenzigpinn">

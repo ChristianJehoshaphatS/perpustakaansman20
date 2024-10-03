@@ -13,7 +13,7 @@ export default function VisidanMisi() {
         <Image
           src={"/profile/vm.png"}
           width={800}
-          height={800}
+          height={1200}
           alt="Visi dan Misi"
         />
         <h1 className="text-3xl font-bold self-start text-center mt-10 text-black  w-full">

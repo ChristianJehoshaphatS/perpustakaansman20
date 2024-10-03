@@ -113,8 +113,8 @@ export default function Home() {
           Jam Layanan
         </h1>
         <ul className="steps steps-vertical lg:steps-horizontal w-1/2">
-          <li className="step step-primary w-full">Buka: 07.00 WIB</li>
-          <li className="step">Tutup: 15.00 WIB</li>
+          <li className="step step-primary w-full">Buka: 06.30 WIB</li>
+          <li className="step">Tutup: 17.00 WIB</li>
         </ul>
         <br />
 

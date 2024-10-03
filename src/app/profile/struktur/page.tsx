@@ -9,7 +9,7 @@ export default function StrukturPengelola() {
         </h1>
 
         <Image
-          src={"/profile/sop	.png"}
+          src={"/profile/sop.png"}
           width={800}
           height={800}
           alt="Visi dan Misi"
