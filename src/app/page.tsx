@@ -112,10 +112,24 @@ export default function Home() {
         <h1 className="text-3xl font-bold self-start ml-10 mt-10 text-black">
           Jam Layanan
         </h1>
-        <ul className="steps steps-vertical lg:steps-horizontal w-1/2">
-          <li className="step step-primary w-full">Buka: 06.30 WIB</li>
-          <li className="step">Tutup: 17.00 WIB</li>
-        </ul>
+        <div className="flex gap-5 flex-wrap justify-center p-5">
+
+        <div className="stats shadow">
+          <div className="stat">
+            <div className="stat-title">Jam Buka</div>
+            <div className="stat-value">06.30 WIB</div>
+            {/* <div className="stat-desc">21% more than last month</div> */}
+          </div>
+        </div>
+        <div className="stats shadow">
+          <div className="stat">
+            <div className="stat-title">Jam Tutup</div>
+            <div className="stat-value">17.00 WIB</div>
+            {/* <div className="stat-desc">21% more than last month</div> */}
+          </div>
+        </div>
+        </div>
+        
         <br />
 
         <h1 className="text-3xl font-bold self-start ml-10 mt-10 text-black">
