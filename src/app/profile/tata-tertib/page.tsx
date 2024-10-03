@@ -10,9 +10,9 @@ export default function TataTertib() {
 				<br />
 
 				<Image
-					src={"/profile/ttp.png"}
+					src={"/profile/ttp2.png"}
 					width={800}
-					height={800}
+					height={1200}
 					alt="Visi dan Misi"
 				/>
 			</div>

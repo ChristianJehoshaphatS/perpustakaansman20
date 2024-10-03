@@ -25,6 +25,7 @@ export default async function StatsPengunjung() {
             <LoadPdf
               link={
                 "https://drive.google.com/file/d/1kcBk0EoKCcZqoTj08WtUuinZ0XsVc0_z/view?usp=drive_link"
+                
               }
               width={"100%"}
               height={"80%"}

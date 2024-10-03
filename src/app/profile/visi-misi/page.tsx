@@ -17,7 +17,7 @@ export default function VisidanMisi() {
           alt="Visi dan Misi"
         />
         <h1 className="text-3xl font-bold self-start text-center mt-10 text-black  w-full">
-          Kata Sambutan Kepala Perpustakaan SMAN 20 Jakarta
+          Kata Sambutan Kepala Perpustakaan Vidyalaya SMAN 20 Jakarta
         </h1>
         <div className="flex flex-row items-star">
           <div className="flex-col flex w-full items-center">
