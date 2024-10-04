@@ -16,7 +16,7 @@ const EventCard = (props: props) => {
         <figure className="">
           <img
             crossOrigin="anonymous"
-            src={`https://drive.lienuc.com/uc?id=${id[5]}`}
+            src={`https://lh3.googleusercontent.com/d/${id[5]}`}
             alt="News"
             className="rounded-t-2xl max-h-40 w-full object-cover"
           />

@@ -33,11 +33,15 @@ const BookCard = (props: bookProps) => {
             crossOrigin="anonymous"
             src={
               props?.image
-                ? `https://drive.lienuc.com/uc?id=${id[5]}`
+                ? `https://lh3.googleusercontent.com/d/${id[5]}`
                 : "/book404.svg"
             }
             width={400}
             height={400}
+            onError={({ currentTarget }) => {
+              currentTarget.onerror = null; // prevents looping
+              currentTarget.src = "/book404.svg";
+            }}
             alt="CardImage"
             className={
               props.image
